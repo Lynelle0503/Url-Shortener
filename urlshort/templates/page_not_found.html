@@ -1,0 +1,15 @@
+
+{% extends 'base.html' %}
+<head>
+{% block title %}
+Page not Found
+{% endblock %}
+
+</head>
+
+{% block main %}
+<h1 style = "text-align: center;">Page not Found</h1>
+<p style = "text-align: center;">We couldn't find what you are looking for. Come visit our homepage :)</p>
+<p style = "text-align: center;"><a href="{{ url_for('urlshort.home') }}"><button>Home</button></a></p>
+
+{% endblock %}
